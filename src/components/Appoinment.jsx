@@ -21,7 +21,7 @@ const Appoinment = () => {
               />
             </div>
             <div className=" pt-4 lg:pt-0">
-              <p className="font-bold text-[10px] sm:text-[20px]  text-[#fff] ">
+              <p className="font-bold text-[10px] sm:text-[20px]  text-[#000]">
                 Contact No.
               </p>
               <input
@@ -31,7 +31,7 @@ const Appoinment = () => {
               />
             </div>
             <div className=" pt-4 lg:pt-0">
-              <p className="font-bold text-[10px] sm:text-[20px]  text-[#fff] ">
+              <p className="font-bold text-[10px] sm:text-[20px]  text-[#000] ">
                 Date
               </p>
               <input
