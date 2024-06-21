@@ -53,7 +53,7 @@ const Bloge = () => {
                   </Link>
                 </div>
                 <p className="pt-2 text-start text-[15px] ">
-                  <Link to="/blogpage">{slide.dec}</Link>
+                  <Link to={`/blogpage/${slide.id}`}>{slide.dec}</Link>
                 </p>
                 <h2 className="font-bold text-[20px]">{slide.redmore}</h2>
               </div>
