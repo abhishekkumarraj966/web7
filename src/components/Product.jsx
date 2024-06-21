@@ -26,7 +26,7 @@ const Product = () => {
           }}
           breakpoints={{
             340: {
-              slidesPerView: 1,
+              slidesPerView: 2,
               spaceBetween: 0,
             },
             500: {
