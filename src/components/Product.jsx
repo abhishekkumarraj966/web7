@@ -54,7 +54,7 @@ const Product = () => {
           {Productmock.map((slide, index) => (
             <SwiperSlide key={index}>
               <div className="px-2">
-              <div className="w-[90%] h-[330px] flex-col mt-8 sm:mb-10 group mx-auto sm:pb-4 mb-24  ">
+              <div className="w-[90%] h-auto sm:h-[330px] flex-col mt-8 sm:mb-10 group mx-auto sm:pb-4 mb-24  ">
                 <div className="relative">
                   <a href={`/product/${slide.id}`}>
                     <img src={slide.img} alt="" className="" />
