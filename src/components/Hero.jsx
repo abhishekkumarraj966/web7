@@ -87,7 +87,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="items-center mt-[-5%]   mb-4  hidden md:block lg:mx-[25%] lg:mt-[-18%]">
+        <div className="items-center mt-[-5%]   mb-4  hidden md:block md:mx-[3%] lg:mx-[15%] lg:mt-[-18%]">
           <ul className="flex gap-[10px] lg:gap-[8px] px-2">
             <img src={what} className="h-[48px] " alt="whataap" />
             <img src={fac} alt="facbook" className="h-[43px]  mt-1" />
